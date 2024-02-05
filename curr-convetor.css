@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #9a96b9;
+     min-height: 100vh;
+}
+
+.containor {
+    height: 50vh;
+    width: 50%;
+
+    
+    border: 1px solid rgba(255, 255, 255, .25);
+    border-radius: 20px;
+    background-color: transparent;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.50);
+    backdrop-filter: blur(15px);
+    
+}
+.dropdown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    gap: 3rem;
+}   
+#cc {
+    text-align: center;
+}
+.amount{
+    margin-top: 1rem;
+    text-align: center;
+    border: none;
+    border-color: grey;
+}
+.amt{
+    padding-left: 10px;
+    height: 1.75rem;
+    border-radius: 0.75rem;
+}
+.exchange {
+    margin-top: 1rem;
+    text-align: center;
+}
+button{
+    height: 3rem;
+    width: 75%;
+    margin-top: 1rem;
+    margin-left: 5rem;
+    border: none;
+    outline: none;
+    border-color: grey;
+    border-radius: 0.75rem;
+    background-color: #C9C9C9;
+    font-size: 1rem;
+    color: black;
+    cursor: pointer;
+
+}
